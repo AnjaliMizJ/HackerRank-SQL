@@ -26,4 +26,4 @@ where lat is the sum of all values in LAT_N and lon is the sum of all values in 
 
 <H2>SOLUTION</H2>
 
-SELECT
+SELECT ROUND(SUM(LAT_N),2), ROUND(SUM(LONG_W),2) FROM STATION;
